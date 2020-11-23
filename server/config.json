@@ -1,37 +1,60 @@
 {"servers":
-	[
-		{
-			"username": "s01",
-			"name": "node1",
-			"type": "xen",
-			"host": "host1",
-			"location": "cn",
-			"password": "USER_DEFAULT_PASSWORD"
-		},
-		{
-			"username": "s02",
-			"name": "node2",
-			"type": "vmware",
-			"host": "host2",
-			"location": "jp",
-			"password": "USER_DEFAULT_PASSWORD"
-		},
-		{
-			"disabled": true,
-			"username": "s03",
-			"name": "node3",
-			"type": "Nothing",
-			"host": "host3",
-			"location": "fr",
-			"password": "USER_DEFAULT_PASSWORD"
-		},
-		{
-			"username": "s04",
-			"name": "node4",
-			"type": "kvm",
-			"host": "host4",
-			"location": "kr",
-			"password": "USER_DEFAULT_PASSWORD"
-		}
-	]
+        [
+                {
+                        "username": "s01",
+                        "name": "ION22.22",
+                        "type": "kvm",
+                        "host": "US",
+                        "location": "us",
+                        "password": "s01.0101"
+                },
+                {
+                        "username": "s02",
+                        "name": "BWG",
+                        "type": "kvm",
+                        "host": "US",
+                        "location": "us",
+                        "password": "s02.0202"
+                },
+                {
+                        "username": "s03",
+                        "name": "Olink",
+                        "type": "kvm",
+                        "host": "GE",
+                        "location": "ge",
+                        "password": "s03.0303"
+                },
+                {
+                        "username": "s04",
+                        "name": "Virm",
+                        "type": "kvm",
+                        "host": "US",
+                        "location": "us",
+                        "password": "s04.0404"
+                },
+				{
+                        "username": "s05",
+                        "name": "Ruvds",
+                        "type": "kvm",
+                        "host": "RU",
+                        "location": "ru",
+                        "password": "s05.0505"
+                },
+				{
+                        "username": "s06",
+                        "name": "鞍山",
+                        "type": "nat",
+                        "host": "CN",
+                        "location": "cn",
+                        "password": "s06.0606"
+                },
+				{
+                        "username": "s07",
+                        "name": "Euserv",
+                        "type": "kvm",
+                        "host": "GE",
+                        "location": "ge",
+                        "password": "s07.0707"
+                }
+        ]
 }
